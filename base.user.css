@@ -1,0 +1,22 @@
+:root {
+  --font-family: "Iowan Old Style";
+  --font-headings: "Seravek";
+  --monospace: "SF Mono", monospace;
+  --font-size: 22px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headings);
+}
+#write {
+  max-width: 768px;
+}
+@media only screen and (min-width: 1400px) {
+  #write {
+      max-width: 920px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  #write {
+      max-width: 1024px;
+  }
+}
